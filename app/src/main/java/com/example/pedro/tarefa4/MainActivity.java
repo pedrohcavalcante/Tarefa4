@@ -21,11 +21,14 @@ public class MainActivity extends Activity {
     }
 
     public void questao1Func(View view){
-        Intent q1 = new Intent(getApplicationContext(), this);
+        Intent q1 = new Intent(getApplicationContext(), Questao1.class);
+        startActivity(q1);
 
     }
 
     public void questao2Func(View view){
+        Intent q2 = new Intent(getApplicationContext(), Questao2.class);
+        startActivity(q2);
 
     }
 }
