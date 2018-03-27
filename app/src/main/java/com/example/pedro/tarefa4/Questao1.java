@@ -29,7 +29,7 @@ public class Questao1 extends Activity{
         contagem = new Handler();
         contador = findViewById(R.id.id_contador);
         contador.setVisibility(View.VISIBLE);
-        contador.setText("99999");
+        //contador.setText("99999");
         btnProcessar = findViewById(R.id.processar);
     }
 
