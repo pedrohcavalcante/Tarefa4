@@ -53,6 +53,12 @@ public class Questao1 extends Activity{
                             });
                             SystemClock.sleep(1000);
                         }
+                        contador.postDelayed(new Runnable() {
+                            @Override
+                            public void run() {
+                                btnProcessar.setEnabled(true);
+                            }
+                        }, i*1000);
             }
         }.start();
 
